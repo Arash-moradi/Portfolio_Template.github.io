@@ -3,7 +3,7 @@
 @font-face {
     font-family: Shabnam;
     src: url('../fonte/shabnam.eot');
-    src: url('../fonte/shabnam.eot?#iefix') format('embedded-opentype'), url('../fonte/shabnam.woff') format('woff'), url('../fonte/shabnam.ttf') format('truetype');
+    src: url('../fonte/shabnam.eot?#iefix') format('embedded-opentype'), url('../fonte/shabnam.woff') format('woff'), url('http://fonts.codearena.ir/rastikerdar/shabnam/shabnam.ttf') format('truetype');
     font-weight: normal;
 }
 
@@ -11,6 +11,10 @@ body {
     font-family: Shabnam;
     background: #EFF1F7;
     direction: rtl;
+}
+
+.clear-fix {
+    clear: both;
 }
 
 .content {
@@ -60,6 +64,7 @@ nav li {
 
 nav li a {
     color: #fff;
+    font-size: 0.9em;
     font-weight: 700;
     opacity: 0.6;
     text-decoration: none;
@@ -87,6 +92,8 @@ nav li a:hover {
 }
 
 .hero p {
+    text-align: justify;
+    font-size: 0.8em;
     font-weight: 300;
     line-height: 1.8em;
     color: #98a0ad;
@@ -117,6 +124,7 @@ footer ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: flex-end;
 }
 
 footer ul li {
@@ -153,6 +161,9 @@ footer p {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
+    }
+    nav li a {
+        font: 1.5em;
     }
     .sidebar {
         background: linear-gradient(rgba(249, 107, 142, 1), rgba(218, 103, 230, 1), rgba(130, 125, 254, 1));
