@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: Shabnam;
-    src: url('http://fonts.codearena.ir/rastikerdar/shabnam/shabnam.eot');
-    src: url('http://fonts.codearena.ir/rastikerdar/shabnam/shabnam.eot?#iefix') format('embedded-opentype'), url('http://fonts.codearena.ir/rastikerdar/shabnam/shabnam.woff') format('woff'), url('http://fonts.codearena.ir/rastikerdar/shabnam/shabnam.ttf') format('truetype');
+    src: url('../fonte/shabnam.eot');
+    src: url('../fonte/shabnam.eot?#iefix') format('embedded-opentype'), url('../fonte/shabnam.woff') format('woff'), url('../fonte/shabnam.ttf') format('truetype');
     font-weight: normal;
 }
 
